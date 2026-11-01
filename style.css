@@ -1,0 +1,32 @@
+:root {
+  --main-color: blueviolet;
+  --secondary-color: white;
+}
+body{
+    background-color: var(--main-color);
+}
+.container .container{
+    background-color: var(--secondary-color);
+}
+.sendReviewButton{
+    background-color: var(--main-color);
+}
+.mainColor{
+    color: var(--main-color);
+}
+.sendReviewButton:disabled {
+    opacity: 0.5;
+}
+
+.sendReviewButton:enabled {
+    opacity: 1;
+    box-shadow: 2px 4px 10px var(--main-color);
+}
+.ratingButton:hover{
+    background-color: rgb(138, 43, 226,0.3) !important;
+    border: 1px solid var(--main-color) !important;
+}
+.active{
+    background-color: var(--main-color) !important;
+    box-shadow: 2px 3px 15px var(--main-color);
+}
